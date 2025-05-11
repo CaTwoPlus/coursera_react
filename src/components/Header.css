@@ -1,0 +1,71 @@
+.app-header {
+  display: flex;
+  justify-content: space-between;   /* push left and right to edges */
+  align-items: center;
+  background: #4caf50;
+  color: white;
+  padding: 0 1rem;
+  height: 60px;
+  position: sticky;
+  top: 0;
+  overflow: hidden;                  /* prevent any overflow */
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+  flex: 0 0 auto;
+}
+
+.logo {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+.slogan {
+  font-style: italic;
+  opacity: 0.9;
+}
+
+.header-title {
+  flex: 1 1 auto;                    /* take up all available center space */
+  text-align: center;
+  font-size: 1.2rem;
+  padding: 0 10px;
+  white-space: nowrap;               /* prevent wrapping */
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.header-right {
+  flex: 0 0 auto;
+  position: relative;                /* for badge positioning */
+  margin-right: 2rem;
+}
+
+.cart-link {
+  display: inline-flex;
+  align-items: center;
+  color: white;
+  text-decoration: none;
+}
+
+.cart-link img {
+  width: 24px;
+  height: 24px;
+}
+
+.cart-count {
+  background: white;
+  color: #4caf50;
+  font-weight: bold;
+  font-size: 0.75rem;
+  padding: 2px 5px;
+  border-radius: 10px;
+  position: absolute;
+  top: 8px;                          /* move badge inside header */
+  right: 8px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.3);
+}
