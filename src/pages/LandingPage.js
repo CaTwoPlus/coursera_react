@@ -1,10 +1,16 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './LandingPage.css';
+import bg from '../assets/landing-bg.jpg';
 
 export default function LandingPage() {
   return (
-    <div className="landing">
+    <div className="landing" style={{
+        backgroundImage: `url(${bg})`,
+        backgroundPosition: 'center',
+        backgroundSize: 'cover',
+        backgroundRepeat: 'no-repeat',
+      }}>
       <div className="landing-overlay">
         <div className="landing-left">
           <h1>Welcome To Paradise Nursery</h1>

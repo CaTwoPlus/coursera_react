@@ -1,4 +1,4 @@
-.landing { background:url('/images/landing-bg.jpg') center/cover no-repeat; height:100vh; display:flex; align-items:center; justify-content:center; }
+.landing { height:100vh; display:flex; align-items:center; justify-content:center; }
 .landing-overlay { display:grid; grid-template-columns:1fr 1fr; max-width:1200px; width:100%; background:rgba(0,0,0,0.5); padding:40px; color:white; gap:30px; }
 .landing-left h1 { font-size:3rem; margin-bottom:0.5rem; }
 .tagline { font-size:1.2rem; margin-bottom:20px; }
